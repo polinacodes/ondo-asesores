@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Asesoría para autónomos en Bilbao | Ondo Asesores</title>
+  <meta name="description"
+    content="Asesoría fiscal y contable para autónomos y PYMEs en Bilbao. Cuota fija, sin permanencia y atención en menos de 24 h. Pide tu consulta gratis.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#F7F5F0">
+
+  <link rel="canonical" href="https://ondo-asesores.vercel.app/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Ondo Asesores">
+  <meta property="og:url" content="https://ondo-asesores.vercel.app/">
+  <meta property="og:title" content="Asesoría para autónomos en Bilbao | Ondo Asesores">
+  <meta property="og:description"
+    content="Asesoría fiscal y contable para autónomos y PYMEs en Bilbao. Cuota fija, sin permanencia y atención en menos de 24 h.">
+  <meta property="og:image" content="https://ondo-asesores.vercel.app/img/og-ondo.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ondo Asesores, asesoría para autónomos en Bilbao">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fuentes autoalojadas: precarga de las dos que se ven al cargar (texto y titulares) -->
+  <link rel="preload" href="fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Ondo Asesores",
+    "description": "Asesoría fiscal y contable para autónomos y pequeñas empresas en el barrio de Abando, Bilbao.",
+    "url": "https://ondo-asesores.vercel.app/",
+    "image": "https://ondo-asesores.vercel.app/img/og-ondo.jpg",
+    "telephone": "+34 600 000 000",
+    "email": "hola@ondoasesores.es",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Ejemplo 8",
+      "postalCode": "48001",
+      "addressLocality": "Bilbao",
+      "addressRegion": "Bizkaia",
+      "addressCountry": "ES"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Bilbao"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "name": "Plan Autónomo",
+        "url": "https://ondo-asesores.vercel.app/#precios",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "60",
+          "priceCurrency": "EUR",
+          "unitCode": "MON",
+          "valueAddedTaxIncluded": false
+        },
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Plan Autónomo",
+          "description": "Trimestrales, renta y consultas ilimitadas."
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Plan Pequeña empresa",
+        "url": "https://ondo-asesores.vercel.app/#precios",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "minPrice": "150",
+          "priceCurrency": "EUR",
+          "unitCode": "MON",
+          "valueAddedTaxIncluded": false
+        },
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Plan Pequeña empresa",
+          "description": "Contabilidad, impuestos y cuentas anuales."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
+
+  <header class="site-header">
+
+    <nav class="navbar container" aria-label="Navegación principal">
+
+      <a class="logo" href="#inicio" aria-label="Ondo Asesores, inicio">Ondo Asesores</a>
+
+      <button class="menu-toggle" type="button" aria-label="Menú" aria-expanded="false" aria-controls="main-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="main-menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#como-trabajamos">Cómo trabajamos</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-cta" href="#formulario">Pedir consulta gratuita</a>
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <main id="contenido">
+
+    <!-- =================================================
+         HERO
+         ================================================= -->
+
+    <section class="hero" id="inicio">
+
+      <!--
+        Imagen principal del hero.
+        Crédito: Vitaly Gariev · https://unsplash.com/es/fotos/disenadora-de-moda-al-telefono-trabajando-en-una-computadora-portatil-kk4J92iaSBk
+        Archivos necesarios: ondo-hero-640.avif, ondo-hero-960.avif, ondo-hero.avif (1200 px), ondo-hero-1600.avif
+      -->
+      <!-- <img
+        class="hero-background"
+        src="img/ondo-hero.avif"
+        srcset="img/ondo-hero-640.avif 640w, img/ondo-hero-960.avif 960w, img/ondo-hero.avif 1200w, img/ondo-hero-1600.avif 1600w"
+        sizes="100vw"
+        width="1200"
+        height="800"
+        fetchpriority="high"
+        alt="Mujer trabajando con su portátil en un taller, con telas y bocetos sobre la mesa"> -->
+
+      <img class="hero-background" src="img/ondo-hero.avif" srcset="
+         img/ondo-hero-640.avif 640w,
+         img/ondo-hero-960.avif 960w,
+         img/ondo-hero.avif 1331w
+         " 
+        sizes="(max-width: 768px) 100vw, 100vw" width="1331" height="749" fetchpriority="high"
+        alt="Diseñadora de moda en su taller hablando por teléfono frente a la portátil">
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+
+        <div class="hero-copy">
+
+          <p class="eyebrow">Asesoría fiscal y contable · Bilbao</p>
+
+          <h1>
+            <span class="h1-line">Tus impuestos, en orden.</span>
+            <span class="h1-line">Tú, a lo tuyo</span>
+          </h1>
+
+          <p class="hero-text">
+            Asesoría para autónomos y pequeñas empresas en Bilbao.
+            Cuota fija y un asesor que te contesta en menos de 24 horas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-accent" href="#formulario">Pedir consulta gratuita</a>
+            <a class="button button-secondary" href="#precios">Ver precios</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         PARA QUIÉN ES
+         ================================================= -->
+
+    <section class="section section-light" id="para-quien">
+
+      <div class="container para-quien-grid">
+
+        <div class="para-quien-copy">
+
+          <p class="eyebrow">Para autónomos y pequeñas empresas</p>
+
+          <h2>¿Hacienda te quita más tiempo que tus clientes?</h2>
+
+          <p class="section-intro">
+            Trimestrales a última hora, facturas en tres sitios
+            distintos y la duda de si estás pagando de más.
+            Si te suena, aquí te lo ponemos fácil.
+          </p>
+
+        </div>
+
+        <!--
+          Imagen secundaria.
+          Crédito: Benyamin Bohlouli · https://unsplash.com/es/fotos/hombre-con-camisa-de-cuello-redondo-gris-y-azul-con-gafas-de-montura-negra-z_07LsS_A8E
+          Archivos necesarios: ondo-para-quien-480.avif, ondo-para-quien-800.avif, ondo-para-quien.avif (1170 px)
+        -->
+        <!-- <figure class="para-quien-image">
+          <img src="img/ondo-para-quien.avif"
+            srcset="img/ondo-para-quien-480.avif 480w, img/ondo-para-quien-800.avif 800w, img/ondo-para-quien.avif 1170w"
+            sizes="(max-width: 768px) 100vw, 50vw" width="1170" height="780" loading="lazy"
+            alt="Dueño de una cafetería con delantal, sonriendo detrás de la barra de su local">
+        </figure> -->
+
+        <figure class="para-quien-image">
+         <img 
+            src="img/ondo-para-quien.avif"
+            srcset="img/ondo-para-quien-480.avif 480w, img/ondo-para-quien-800.avif 800w, img/ondo-para-quien.avif 1170w"
+            sizes="(max-width: 768px) 100vw, 50vw" 
+            width="1170" 
+            height="780" 
+            loading="lazy"
+            alt="Dueño de una cafetería con delantal, sonriendo detrás de la barra de su local">
+        </figure> 
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         SERVICIOS
+         ================================================= -->
+
+    <section class="section" id="servicios">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Qué hacemos</p>
+          <h2>Una asesoría que se ocupa de lo importante</h2>
+        </div>
+
+        <ul class="cards cards-three" role="list">
+
+          <li class="card">
+            <span class="card-number" aria-hidden="true">01</span>
+            <h3>Autónomos</h3>
+            <p>Alta, trimestrales y renta, sin que tengas que pelearte con ningún formulario.</p>
+          </li>
+
+          <li class="card">
+            <span class="card-number" aria-hidden="true">02</span>
+            <h3>Pequeñas empresas</h3>
+            <p>Contabilidad, impuestos y cuentas anuales, al día cada mes.</p>
+          </li>
+
+          <li class="card">
+            <span class="card-number" aria-hidden="true">03</span>
+            <h3>Nóminas</h3>
+            <p>Contratos y nóminas para equipos de hasta 10 personas.</p>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         CÓMO TRABAJAMOS
+         ================================================= -->
+
+    <section class="section section-blue" id="como-trabajamos">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-light">Cómo trabajamos</p>
+          <h2>Simple, claro y sin letra pequeña</h2>
+        </div>
+
+        <ol class="steps" role="list">
+
+          <li class="step">
+            <span class="step-number" aria-hidden="true">1</span>
+            <h3>Hablamos</h3>
+            <p>En una consulta gratuita de 20 minutos vemos tu situación.</p>
+          </li>
+
+          <li class="step">
+            <span class="step-number" aria-hidden="true">2</span>
+            <h3>Lo ordenamos</h3>
+            <p>Recogemos tu documentación y lo dejamos todo al día.</p>
+          </li>
+
+          <li class="step">
+            <span class="step-number" aria-hidden="true">3</span>
+            <h3>Te acompañamos</h3>
+            <p>Te avisamos de cada plazo y respondemos tus dudas en menos de 24 horas.</p>
+          </li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         PRECIOS
+         ================================================= -->
+
+    <section class="section" id="precios">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Precios</p>
+          <h2>Una cuota fija. Sin sorpresas.</h2>
+        </div>
+
+        <div class="pricing-grid">
+
+          <article class="pricing-card">
+            <p class="pricing-label">Para empezar</p>
+            <h3>Autónomo</h3>
+            <p class="price"><strong>60 €</strong> <span>/ mes + IVA</span></p>
+            <p class="pricing-desc">Trimestrales, renta y consultas ilimitadas.</p>
+            <a class="button button-accent" href="#formulario">Pedir consulta gratuita<span class="sr-only"> para el
+                plan Autónomo</span></a>
+          </article>
+
+          <article class="pricing-card">
+            <p class="pricing-label">Para crecer</p>
+            <h3>Pequeña empresa</h3>
+            <p class="price"><strong>Desde 150 €</strong> <span>/ mes + IVA</span></p>
+            <p class="pricing-desc">Contabilidad, impuestos y cuentas anuales.</p>
+            <a class="button button-accent" href="#formulario">Pedir consulta gratuita<span class="sr-only"> para el
+                plan Pequeña empresa</span></a>
+          </article>
+
+        </div>
+
+        <p class="pricing-note">
+          Sin permanencia. Si cambias de asesoría, te ayudamos con el traspaso.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         CONTACTO
+         ================================================= -->
+
+    <section class="section section-contact" id="contacto">
+
+      <div class="container contact-grid">
+
+        <div class="contact-copy">
+
+          <p class="eyebrow">Hablemos</p>
+
+          <h2>Pide tu consulta gratuita</h2>
+
+          <p>
+            Cuéntanos en pocas palabras tu caso y nos pondremos en contacto contigo. Queremos saber cómo ayudarte para
+            que puedas estar tranquilo.
+          </p>
+
+        </div>
+
+        <div class="form-wrapper" id="formulario">
+
+          <form id="contact-form" novalidate>
+
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required aria-describedby="nombre-error">
+              <span class="form-error" id="nombre-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" required
+                aria-describedby="telefono-error">
+              <span class="form-error" id="telefono-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" autocomplete="email" required
+                aria-describedby="correo-error">
+              <span class="form-error" id="correo-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="negocio">Tipo de negocio</label>
+              <select id="negocio" name="negocio" required aria-describedby="negocio-error">
+                <option value="">Selecciona una opción</option>
+                <option value="autonomo">Autónomo</option>
+                <option value="pequena-empresa">Pequeña empresa</option>
+                <option value="otro">Otro</option>
+              </select>
+              <span class="form-error" id="negocio-error"></span>
+            </div>
+
+            <div class="privacy-group">
+              <input type="checkbox" id="privacidad" name="privacidad" required aria-describedby="privacidad-error">
+              <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a>.</label>
+              <span class="form-error" id="privacidad-error"></span>
+            </div>
+
+            <button class="button button-accent button-submit" type="submit">Pedir consulta gratuita</button>
+
+            <p class="form-success" id="form-success" role="status" aria-live="polite" tabindex="-1">
+              ¡Gracias! Hemos recibido tu solicitud.
+              Te contactaremos lo antes posible.
+            </p>
+
+          </form>
+
+        </div>
+
+        <div class="contact-details">
+
+          <p>
+            <strong>Dirección</strong><br>
+            Calle Ejemplo 8, 48001 Bilbao
+          </p>
+
+          <p>
+            <strong>Teléfono</strong><br>
+            <a href="tel:+34600000000">600 000 000</a>
+          </p>
+
+          <p>
+            <strong>Email</strong><br>
+            <a href="mailto:hola@ondoasesores.es">hola@ondoasesores.es</a>
+          </p>
+
+          <p>
+            <strong>Horario</strong><br>
+            Lunes a viernes de 9:00 a 18:00
+          </p>
+
+          <a class="maps-link" href="https://www.google.com/maps/search/?api=1&amp;query=Calle+Ejemplo+8,+48001+Bilbao"
+            target="_blank" rel="noopener noreferrer">
+            Ver ubicación en Google Maps
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div>
+        <a class="footer-logo" href="#inicio">Ondo Asesores</a>
+        <p>Asesoría fiscal y contable para autónomos y pequeñas empresas en Bilbao.</p>
+      </div>
+
+      <div>
+        <p>
+          Calle Ejemplo 8, 48001 Bilbao<br>
+          <a href="tel:+34600000000">600 000 000</a><br>
+          <a href="mailto:hola@ondoasesores.es">hola@ondoasesores.es</a>
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Privacidad</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Ondo Asesores</p>
+      <p>
+        Fotos de
+        <a href="https://unsplash.com/es/fotos/disenadora-de-moda-al-telefono-trabajando-en-una-computadora-portatil-kk4J92iaSBk"
+          target="_blank" rel="noopener noreferrer">Vitaly Gariev</a>
+        y
+        <a href="https://unsplash.com/es/fotos/hombre-con-camisa-de-cuello-redondo-gris-y-azul-con-gafas-de-montura-negra-z_07LsS_A8E"
+          target="_blank" rel="noopener noreferrer">Benyamin Bohlouli</a>
+        en Unsplash
+      </p>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
