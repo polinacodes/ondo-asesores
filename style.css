@@ -41,7 +41,6 @@
   --color-bg: #F7F5F0;
   --color-text: #14213D;
   --color-primary: #2B4C7E;
-  --color-primary-dark: #203B63;
   --color-accent: #F2B134;
   --color-accent-dark: #D99C25;
   --color-white: #FFFFFF;
@@ -664,10 +663,6 @@ p {
   grid-area: copy;
 }
 
-.form-wrapper {
-  grid-area: form;
-}
-
 .contact-details {
   grid-area: details;
 }
@@ -700,6 +695,7 @@ p {
 /* ---------- Tarjeta del formulario ---------- */
 
 .form-wrapper {
+  grid-area: form;
   padding: 40px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
